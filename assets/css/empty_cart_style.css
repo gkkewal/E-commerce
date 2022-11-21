@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, li, form, fieldset, legend, label, table, header, footer, nav, section {
+margin: 0;
+padding: 0;
+border: 0;
+}
+a {
+color: #106eea;
+text-decoration: none;
+}
+
+a:hover {
+color: #3b8af2;
+text-decoration: none;
+}
+* {
+    font-family: 'Poppins', sans-serif;
+}
+.card1 {
+    margin: auto;
+    max-width: 950px;
+    width: 90%;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1rem;
+    border: transparent
+}
+
+@media(max-width:767px) {
+    .card1 {
+        margin: 3vh auto
+    }
+}
+
+.cart1 {
+    background-color: #fff;
+    padding: 4vh 5vh;
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem
+}
+
+@media(max-width:767px) {
+    .cart1 {
+        padding: 4vh;
+        border-bottom-left-radius: unset;
+        border-top-right-radius: 1rem;
+    }
+}
+
+.main1 {
+    margin: 0;
+    padding: 2vh 0;
+    width: 100%
+}
+
+a {
+    padding: 0 1vh;
+    text-decoration: none;
+}
+
+.close {
+    margin-left: auto;
+    font-size: 0.7rem;
+    cursor: pointer;
+}
+
+.ram {
+    width: 3.5rem;
+}
+
+.back-to-shop {
+    margin-top: 4.5rem
+}
+
+.btn12 {
+    background-color: #000;
+    border-color: #000;
+    color: white;
+    width: 100%;
+    font-size: 0.7rem;
+    /* margin-top: 4vh; */
+    padding: 1vh;
+    border-radius: 4px;
+}
+
+.btn12:focus {
+    box-shadow: none;
+    outline: none;
+    box-shadow: none;
+    color: white;
+    -webkit-box-shadow: none;
+    -webkit-user-select: none;
+    transition: none;
+}
+
+.btn12:hover {
+    color: white;
+}
+
+.container12{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
